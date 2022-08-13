@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1660311913194-2ad163c7e660?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    margin: 0;
+    /* Bring items to center horizantally  */
+    display: flex;
+    justify-content: center;
+    /* To make the content to be in Center Vertically */
+    height: 100vh;
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    font-family: cursive;
+
+}
+
+.form {
+
+    display: flexbox;
+    background-color: white;
+    /* To get the padding  */
+    padding: 50px;
+    padding-top: 10px;
+    /* For the opacity  */
+    opacity: .8;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.input {
+    /* To make the input button to take full block and push the submit button down  */
+    display: block;
+    width: 100%;
+    
+    font-size: 25px;
+    /* to take the same spacing     */
+    box-sizing: border-box;
+    font-family: cursive;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+input::placeholder{
+    color: darkgrey;
+}
+
+.btn{
+    font-size: 20px;
+    font-family: cursive;
+    background-color: rgb(124, 172, 53);
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* when putting the cursor on the submit button */
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+.score{
+    color: darkred;
+
+    text-align: right;
+}
